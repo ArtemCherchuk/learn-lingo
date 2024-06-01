@@ -1,0 +1,110 @@
+.containerHero {
+  margin: 0 auto;
+}
+
+.containerUnlock {
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  padding: 24px;
+
+  margin-bottom: 16px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: #121417;
+
+  margin-bottom: 16px;
+}
+
+.spanLanguage {
+  background-color: #cbded3;
+  border-radius: 8px;
+
+  font-style: italic;
+  font-weight: 400;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.375;
+  letter-spacing: -0.02em;
+  color: #121417;
+
+  margin-bottom: 16px;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.55556;
+  color: #121417;
+
+  border-radius: 12px;
+  border: none;
+  padding: 12px 24px;
+
+  background-color: #9fbaae;
+}
+/***************************** Img ********************************/
+.containerImg {
+  background-color: #cbded3;
+  border-radius: 30px;
+  padding: 24px;
+
+  height: 288px;
+
+  background-image: url("../../helpers/mac.png"), url("../../helpers/girl.png");
+  background-repeat: no-repeat;
+  background-size: 220px, 220px, cover;
+  background-position: center bottom, center 50%;
+
+  margin-bottom: 16px;
+}
+/***************************** List ******************************/
+.containerList {
+  border: 1.5px dashed #9fbaae;
+  border-radius: 30px;
+  padding: 24px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+.itemList {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.textList {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+  color: #121417;
+}
+
+.spanList {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(18, 20, 23, 0.7);
+
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1440px) {
+}

@@ -1,0 +1,112 @@
+.header {
+  padding: 8px 0;
+  margin-bottom: 16px;
+}
+
+.container_logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  color: #121417;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+.button_burger {
+  width: 28px;
+  height: 28px;
+
+  font-size: 28px;
+
+  border: none;
+  background-color: transparent;
+}
+
+.containerLinks {
+  display: none;
+}
+
+.containerButtons {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+    font-size: 20px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 32px;
+  }
+
+  .button_burger {
+    display: none;
+  }
+
+  .containerLinks {
+    display: flex;
+    column-gap: 28px;
+  }
+
+  .containerButtons {
+    display: flex;
+    column-gap: 16px;
+  }
+
+  .linkNav {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+    color: #121417;
+  }
+
+  .buttonLog {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+    border: none;
+    background-color: transparent;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .buttonReg {
+    color: #ffffff;
+    background-color: #121417;
+    padding: 14px 37px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    padding: 0 64px;
+  }
+}
