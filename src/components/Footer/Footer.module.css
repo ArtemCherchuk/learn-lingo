@@ -1,0 +1,23 @@
+.containerSocial {
+  padding: 24px;
+}
+
+.titleFollow {
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.list {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 16px;
+}
+
+.item {
+}
+
+.link {
+  cursor: pointer;
+  color: #9fbaae;
+  font-size: 32px;
+}
