@@ -1,11 +1,11 @@
-import css from "./Hero.module.css";
+import css from './Hero.module.css';
 
 const Hero = () => {
   return (
     <div className={css.containerHero}>
       <div className={css.containerUnlock}>
         <h1 className={css.title}>
-          Unlock your potential with the best{" "}
+          Unlock your potential with the best{' '}
           <span className={css.spanLanguage}>language</span> tutors
         </h1>
         <p className={css.text}>
@@ -37,7 +37,6 @@ const Hero = () => {
             <span className={css.spanList}>Tutor nationalities</span>
           </li>
         </ul>
-        <p>test</p>
       </div>
     </div>
   );
