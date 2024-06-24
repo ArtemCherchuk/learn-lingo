@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/learn-lingo/static/css/main.965bfcce.css",
-    "main.js": "/learn-lingo/static/js/main.0d89fd0c.js",
-    "static/css/732.c2d3faa5.chunk.css": "/learn-lingo/static/css/732.c2d3faa5.chunk.css",
+    "main.css": "/learn-lingo/static/css/main.9d7d7552.css",
+    "main.js": "/learn-lingo/static/js/main.60261e8c.js",
+    "static/css/732.a6b3268b.chunk.css": "/learn-lingo/static/css/732.a6b3268b.chunk.css",
     "static/js/732.36803cff.chunk.js": "/learn-lingo/static/js/732.36803cff.chunk.js",
     "static/js/455.bb89a5de.chunk.js": "/learn-lingo/static/js/455.bb89a5de.chunk.js",
     "static/js/395.ba40f974.chunk.js": "/learn-lingo/static/js/395.ba40f974.chunk.js",
@@ -12,16 +12,16 @@
     "index.html": "/learn-lingo/index.html",
     "static/media/logIn.svg": "/learn-lingo/static/media/logIn.c73be550f96a1be1dea533d0873c847e.svg",
     "static/media/ukraine.svg": "/learn-lingo/static/media/ukraine.d136637f502d186e21f8be15e57a88cb.svg",
-    "main.965bfcce.css.map": "/learn-lingo/static/css/main.965bfcce.css.map",
-    "main.0d89fd0c.js.map": "/learn-lingo/static/js/main.0d89fd0c.js.map",
-    "732.c2d3faa5.chunk.css.map": "/learn-lingo/static/css/732.c2d3faa5.chunk.css.map",
+    "main.9d7d7552.css.map": "/learn-lingo/static/css/main.9d7d7552.css.map",
+    "main.60261e8c.js.map": "/learn-lingo/static/js/main.60261e8c.js.map",
+    "732.a6b3268b.chunk.css.map": "/learn-lingo/static/css/732.a6b3268b.chunk.css.map",
     "732.36803cff.chunk.js.map": "/learn-lingo/static/js/732.36803cff.chunk.js.map",
     "455.bb89a5de.chunk.js.map": "/learn-lingo/static/js/455.bb89a5de.chunk.js.map",
     "395.ba40f974.chunk.js.map": "/learn-lingo/static/js/395.ba40f974.chunk.js.map",
     "805.56e41860.chunk.js.map": "/learn-lingo/static/js/805.56e41860.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.965bfcce.css",
-    "static/js/main.0d89fd0c.js"
+    "static/css/main.9d7d7552.css",
+    "static/js/main.60261e8c.js"
   ]
 }
