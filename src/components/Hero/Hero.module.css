@@ -81,7 +81,7 @@
 
 .itemList {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   column-gap: 16px;
 }
 
@@ -128,14 +128,40 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .containerHero {
+  .containerUnlock {
+    max-width: 632px;
+    height: 482px;
+    padding-left: 64px;
   }
 
-  .containerUnlock {
-    width: 44%;
+  .containerUnlockText {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
+
+  .title {
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+
+  .text {
+    font-size: 16px;
+    margin-bottom: 64px;
+    max-width: 471px;
+  }
+
+  .button {
+    font-size: 18px;
+    width: 267px;
+  }
+
   .containerImg {
-    width: 44%;
+    background-size: 359px, 339px, cover;
+    max-width: 520px;
+    height: 482px;
   }
 
   .containerList {
@@ -145,8 +171,15 @@
 
   .list {
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: 1000px;
+    column-gap: 100px;
+  }
+
+  .textList {
+    font-size: 28px;
+  }
+  .spanList {
+    width: 74px;
+    font-size: 14px;
   }
 }
